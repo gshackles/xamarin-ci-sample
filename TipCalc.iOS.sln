@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc", "src\TipCalc\TipCalc.csproj", "{47465F9A-97E6-465F-AC57-030191C62C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipCalc.iOS", "src\TipCalc.iOS\TipCalc.iOS.csproj", "{095830C6-27C4-4A8E-9195-519EEB2A79AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Debug|iPhone.Build.0 = Debug|iPhone
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Release|iPhone.ActiveCfg = Release|iPhone
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Release|iPhone.Build.0 = Release|iPhone
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{095830C6-27C4-4A8E-9195-519EEB2A79AD}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Release|iPhone.Build.0 = Release|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{47465F9A-97E6-465F-AC57-030191C62C5B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = src\TipCalc.iOS\TipCalc.iOS.csproj
+	EndGlobalSection
+EndGlobal
