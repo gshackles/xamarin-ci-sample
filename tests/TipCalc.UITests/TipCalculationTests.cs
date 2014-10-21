@@ -21,7 +21,7 @@ namespace TipCalc.UITests
                             .GetFileSystemInfos()
                             .OrderByDescending(file => file.LastWriteTimeUtc)
                             .First(file => file.Name.EndsWith(".app") || file.Name.EndsWith(".apk"));
-		    Console.WriteLine("appFile: " + appFile);
+		    System.Console.WriteLine("appFile: " + appFile);
                     _app = appFile.Name.EndsWith(".app")
                         ? ConfigureApp.iOS.AppBundle(appFile.FullName).StartApp() as IApp
                         : ConfigureApp.Android.ApkFile(appFile.FullName).StartApp();
