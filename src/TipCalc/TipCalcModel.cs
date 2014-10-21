@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
-
+// asdasd
 namespace TipCalc
 {
     public class TipCalcModel : INotifyPropertyChanged
